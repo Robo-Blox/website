@@ -1,0 +1,35 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+}
+
+/* Center align content */
+.header {
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* Styling for the Breaking News headline */
+.breaking-news {
+    color: red;
+    font-size: 36px;
+}
+
+/* Styling for the Placeholder text */
+.placeholder {
+    color: yellow;
+    font-size: 24px;
+}
+
+/* Styling for the static image */
+.image-container {
+    text-align: center; /* Center align the image horizontally */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.image-container img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+}
